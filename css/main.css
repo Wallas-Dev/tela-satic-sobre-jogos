@@ -1,0 +1,382 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/background.png);
+}
+
+header {
+    position: fixed;
+    background-color: rgb(30, 30, 30);
+    width: 100%;
+    height: 80px;
+    border-bottom: 5px solid rgb(0, 0, 0);
+}
+
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.container img {
+    max-width: 65px;
+    max-height: 65px;
+    margin-left: 25px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.busca input {
+    position: absolute;
+    margin-left: 673px;
+    margin-top: 25px;
+    width: 170px;
+    height: 26px;
+}
+
+.busca input {
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(139, 138, 138);
+    border-top: 2px solid rgb(139, 138, 138);
+    border-left: 2px solid rgb(139, 138, 138);
+}
+
+.menu-principal ul li {
+    display: inline-block;
+}
+
+.menu-principal ul li a {
+    color: rgb(152, 152, 152);
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+}
+
+.menu-principal ul li :hover {
+    transition: 0.3s;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.1em 0.1em rgb(2, 207, 207);
+    border-radius: 10px;
+}
+
+
+.menu-principal {
+    margin-top: 10px;
+    margin-left: -17px;
+}
+
+.avatar {
+    position: absolute;
+    margin-left: 1400px;
+    margin-top: 1px;
+
+}
+
+
+.banner img {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    margin-top: 80px;
+}
+
+.banner h1 {
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 30px;
+}
+
+.banner h1 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title1 {
+    position: absolute;
+    margin-top: 538px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.h2 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.destaques {
+    position: absolute;
+    margin-top: 623px;
+    display: flex;
+    margin-left: 86px;
+}
+
+.destaques .jogos img {
+    max-width: 250px;
+    max-height: 500px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.jogos img {
+    transition: 0.5s;
+    box-shadow: 0 0 1em rgb(0, 0, 0);
+}
+
+.destaques .jogos {
+    padding: 10px;
+}
+
+.jogos img {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.jogos {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.jogos:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.title2 {
+    position: absolute;
+    margin-top: 1043px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.catalogo-pc {
+    position: absolute;
+    margin-top: 1141px;
+    margin-left: 35px;
+    display: flex;
+}
+
+.catalogo-pc2 {
+    position: absolute;
+    margin-top: 1430px;
+    margin-left: 35px;
+    display: flex;
+}
+
+.pc {
+    width: 270px;
+    height: 270px;
+    padding: 10px;
+}
+
+.pc img {
+    max-width: 270px;
+    max-height: 270px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.pc img {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.pc img {
+    transition: 0.5s;
+    box-shadow: 0 0 1em rgb(0, 0, 0);
+}
+
+.pc {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.pc:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.title3 {
+    position: absolute;
+    margin-top: 1780px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+
+.catalogo-mobile {
+    position: absolute;
+    margin-top: 1880px;
+    margin-left: 35px;
+    display: flex;
+}
+
+.catalogo-mobile2 {
+    position: absolute;
+    margin-top: 2170px;
+    margin-left: 35px;
+    display: flex;
+}
+
+.rodape {
+    position: absolute;
+    background: url(/img/footer.png);
+    width: 100%;
+    height: 250px;
+    margin-top: 2600px;
+}
+
+.alinhar {
+    position: relative;
+    margin: 0 auto;
+    width: 980px;
+
+}
+
+.rodape .rd1 {
+    float: left;
+    width: 25%;
+    text-align: left;
+
+}
+
+.rodape .rd1 h3 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+.rodape .rd1 p {
+    width: 90%;
+    font-size: 17px;
+    color: #fff;
+}
+
+.contato {
+    display: flex;
+    height: 10%;
+}
+
+.contato .email {
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.contato .email {
+    color: #fff;
+}
+
+.rede-rodape {
+    position: relative;
+    margin-left: 12%;
+    width: 200px;
+}
+
+.rede-rodape img {
+    margin: 6px;
+}
+
+.rodape img:hover {
+    color: transparent;
+    padding: 1px;
+}
+
+.entrada-email b {
+    color: #fff;
+    font-size: 20px;
+}
+
+.entrada-email input {
+    height: 30px;
+    width: 160px;
+    margin-top: 10px;
+    border-radius: 1px;
+    border: #fff;
+}
+
+.but-1 {
+    width: 35px;
+    margin-top: 9px;
+}
+
+.but-1 button {
+    cursor: pointer;
+    height: 32px;
+    width: 35px;
+}
+
+.input-button {
+    display: flex;
+}
+
+.footer-2 {
+    background: url(/img/footer2.png);
+    width: 100%;
+    height: 80px;
+    margin-top: -20px;
+}
+
+.direitos {
+    position: relative;
+    justify-content: center;
+    width: 370px;
+    margin-left: 760px;
+    margin-top: 16px;
+}
+
+.direitos {
+    color: #fff;
+}
+
+.direitos {
+    width: 100%;
+}
+
+.but-2 {
+    position: relative;
+    margin-left: 850px;
+    margin-top: 25px;
+}
+
+.but-2 button {
+    width: 40px;
+    height: 32px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.but-2 button {
+    border-bottom: 2px solid rgb(139, 138, 138);
+    border-top: 2px solid rgb(139, 138, 138);
+    border-right: 2px solid rgb(139, 138, 138);
+    border-left: 2px solid rgb(139, 138, 138);
+    background-color: rgb(47, 47, 47);
+}
+
+.but-2 button img {
+    margin-top: 2px;
+    margin-left: auto;
+}
+
+.conta h3 {
+    color: rgb(157, 157, 157);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.conta {
+    position: relative;
+    margin-top: -16px;
+    margin-left: 28px;
+}
